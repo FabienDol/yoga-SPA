@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mandali&family=Raleway&display=swap" rel="stylesheet">
+    <title>Yoga</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav>
+                <img src="img/logo.png" alt="Logo">
+                <ul>
+                    <li>
+                        <a href="#concept">Concept</a>
+                    </li>
+                    <li>
+                        <a href="#cours">Cours</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <h1>Yogasaloon</h1>
+                <h2>Votre salon de yoga détente et apéro rigolo !</h2>
+                <a href="#" class="btn">Découvrir</a>
+            </div>
+
+        </header>
+        
+
+        <main>
+
+            <section id="concept">
+
+                <h3>Le concept YOGASALOON</h3>
+
+                <article class="concept-flex">
+
+                    <div class="circle">
+                        <img src="img/mat@2x.png" alt="Logo1">
+                    </div>
+
+                    <div>
+                        <h4>Profitez d'une séance de yoga vinyasa d'1h</h4>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quia repudiandae. Commodi suscipit voluptatum, enim totam eaque repellendus voluptas illo ex, doloribus asperiores, eveniet sapiente odio!</p>
+                    </div>
+
+                </article>
+
+                <article class="concept-flex" id="image-reverse">
+
+                    <div class="circle">
+                        <img src="img/drink-list@2x.png" alt="Logo2">
+                    </div>
+
+                    <div>
+                        <h4>Détendez-vous après la séance en choisissant votre boisson parmi un large choix</h4>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quia repudiandae. Commodi suscipit voluptatum, enim totam eaque repellendus voluptas illo ex, doloribus asperiores, eveniet sapiente odio!</p>
+                    </div>
+
+                </article>
+
+                <article class="concept-flex">
+
+                    <div class="circle">
+                        <img src="img/drink@2x.png" alt="Logo3">
+                    </div>
+
+                    <div>
+                        <h4>Dégustez votre boisson avec des accompagnements healthy faits maison</h4>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quia repudiandae. Commodi suscipit voluptatum, enim totam eaque repellendus voluptas illo ex, doloribus asperiores, eveniet sapiente odio!</p>
+                    </div>
+
+                </article>
+
+            </section>
+
+
+            <section id="cours">
+
+                <h3>Les cours YOGASALOON</h3>
+
+                <article>
+                    <img src="img/yoga.jpg" alt="Yoga girl">
+
+                    <div>
+                        <h4>Du vinyasa en veux-tu en voilà</h4>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quia repudiandae. Commodi suscipit voluptatum, enim totam eaque repellendus voluptas illo ex, doloribus asperiores, eveniet sapiente odio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti repudiandae cum quo quae id. Nulla incidunt velit, quos nihil doloremque nemo adipisci eos vero neque ipsa quod inventore iure nam?</p>
+                    </div>
+                </article>
+
+            </section>
+
+
+            <section id="contact">
+
+                <h3>Contact - Suivre un cours</h3>
+
+                <form action="" method="POST">
+                    <ul>
+                        <li>
+                            <label>Etre rappelé : </label>
+                            <input type="radio" id="aujourdhui" name="rappel"><label for="aujourdhui" class="btn">Aujourd'hui</label>
+                            <input type="radio" id="demain" name="rappel"><label for="demain" class="btn">Demain</label>
+                            <input type="radio" id="plus-tard" name="rappel"><label for="plus-tard" class="btn">Plus&nbsp;tard</label>
+                        </li>
+
+                        <li>
+                            <input type="text" placeholder="Nom prénom" class="input">
+                        </li>
+
+                        <li>
+                            <input type="email" placeholder="Email" class="input">
+                        </li>
+
+                        <li>
+                            <label for="type-cours">Vous êtes intéressé par : </label>
+                            <select id="type-cours">
+                                <option value="">Yoga vinyasa</option>
+                                <option value="Yoga2">Yoga2</option>
+                                <option value="Yoga3">Yoga3</option>
+                                <option value="Yoga4">Yoga4</option>
+                                <option value="Yoga5">Yoga5</option>
+                            </select>
+                        </li>
+
+                        <li><input type="submit" value="Envoyer" class="btn"></li>
+
+                    </ul>
+                </form>
+
+                <!-- mock-up exact de la maquette, mais avec fake boutons et champs :
+
+                    <div id="rappel">
+                    <p>Etre rappelé : </p>
+                    <a href="#" class="btn">Aujourd'hui</a>
+                    <a href="#" class="btn">Demain</a>
+                    <a href="#" class="btn">Plus tard</a>
+                </div>
+
+                <div>
+                    <a href="#" class="btn2">Nom prénom</a>
+                    <a href="#" class="btn2">Email</a>
+                </div>
+
+                <div>
+                    <label for="type-cours">Vous êtes intéressé par : </label>
+                    <select name="type-cours" id="type-cours">
+                        <option value="">Yoga vinyasa</option>
+                        <option value="Yoga2">Yoga2</option>
+                        <option value="Yoga3">Yoga3</option>
+                        <option value="Yoga4">Yoga4</option>
+                        <option value="Yoga5">Yoga5</option>
+                    </select>
+                </div>
+
+                <a href="#" class="btn">Envoyer</a>
+
+                -->
+                
+            </section>
+
+        </main>
+
+        <footer>
+            <p>2022 ©</p>
+        </footer>
+        
+    </div> <!-- container-->
+    
+</body>
+</html>
